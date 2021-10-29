@@ -1,2 +1,2 @@
 # instagramme
-Clone of Instagram homepage.
+Instagram homepage clone
