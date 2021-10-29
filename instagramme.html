@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./instagramme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Main Content -->
+    <main>
+
+
+        <!--Le container englobant le téléphone et la mainbox-->
+        <div class="flex-container">
+
+            <!-- Le téléphone avec carousel -->
+            <section class="phone">
+                
+                <div class="carousel">
+                    <!--#slideshow va afficher en diaporama les images avec le script jQuery-->
+                    <div id="slideshow">
+                        <div>
+                            <img src="./img/bambou.jpg">
+                        </div>
+                        <div>
+                            <img src="./img/calliflower.jpg">
+                        </div>
+                        <div>
+                            <img src="./img/chat.jpg">
+                        </div>
+                        <div>
+                            <img src="./img/plante.jpg">
+                        </div>
+                        <div>
+                            <img src="./img/gallerie.jpg">
+                        </div>
+                    </div>
+                </div>
+                
+
+            </section>
+
+            <!-- La partie formulaire et les liens utiles-->
+            <div class="mainbox">
+
+                <div class="containerConnexion">
+                    <h1 class="titre">Instagram</h1>
+
+                    <div class="form">
+
+                        <form action="post">
+
+                            <label for="userId"></label>
+                            <input type="text" id="userId" name="userId"
+                                placeholder="Num.téléphone, nom d'utilisateur ou e-mail">
+
+                            <label for="password"></label>
+                            <input type="password" id="password" name="password" placeholder="Mot de passe">
+
+                            <input type="submit" value="Connexion">
+                        </form>
+
+                    </div>
+
+                    <div class="ou">
+                        <h2><span>OU</span></h2>
+                    </div>
+
+                    <div class="facebook">
+                        
+                            <span><img class="facebookIcon" src="img/facebook.png"></span>
+                            <span><a href="https://www.facebook.com/">Se connecter avec Facebook</a></span>
+                    </div>
+                    
+
+                    <div class="oubli">
+                        <a href="https://www.instagram.com/accounts/password/reset/">Mot de passe oublié ?</a>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="inscription">
+                    <div class="textAlign">
+                        Vous n'avez pas de compte ?<a
+                            href="https://www.instagram.com/accounts/emailsignup/">Inscrivez-vous</a>
+                    </div>
+                </div>
+
+                <div class="download">
+
+                    <div class="titreApp">
+                        Télécharger l'application.
+                    </div>
+
+                    <div class="linkStore">
+                        <div><a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img id="bouton"
+                                    src="./img/appStore.png"></a>
+                        </div>
+                        <div><a href="https://play.google.com/store/apps/details?id=com.instagram.android"><img
+                                    id="bouton" src="./img/googlePlay.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="liensFooter">
+                <a href="https://about.instagram.com/">A propos</a>
+                <a href="https://about.instagram.com/">Blog</a>
+                <a href="https://about.instagram.com/">Emplois</a>
+                <a href="https://about.instagram.com/">Aide</a>
+                <a href="https://about.instagram.com/">API</a>
+                <a href="https://about.instagram.com/">Confidentialité</a>
+                <a href="https://about.instagram.com/">Conditions</a>
+                <a href="https://about.instagram.com/">Comptes principaux</a>
+                <a href="https://about.instagram.com/">Hashtags</a>
+                <a href="https://about.instagram.com/">Lieux</a>
+                <a href="https://about.instagram.com/">Instagram Lite</a>
+            </div>
+            <div class="liensFooter">
+                <a href="https://about.instagram.com/">Beauté</a>
+                <a href="https://about.instagram.com/">Danse</a>
+                <a href="https://about.instagram.com/">Fitness</a>
+                <a href="https://about.instagram.com/">Alimentations et boissons</a>
+                <a href="https://about.instagram.com/">Maison et jardin</a>
+                <a href="https://about.instagram.com/">Musique</a>
+                <a href="https://about.instagram.com/">Arts visuels</a>
+            </div>
+            <div id="liensFooterBottom" class="liensFooter">
+                <a href="https://about.instagram.com/">Français</a>
+                <a href="">@ 2021 Instagram par Facebook</a>
+            </div>
+
+
+
+
+        </footer>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="instagramme.js"></script>
+
+</body>
+
+</html>
